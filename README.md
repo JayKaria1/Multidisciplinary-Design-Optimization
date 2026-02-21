@@ -16,6 +16,8 @@ These were integrated using a Multi-Discipline Feasible (MDF) architecture. Each
 
 For aerodynamics, we used Q3D Solver with viscous corrections. Structural sizing was handled using EMWET, which provided wing weight estimates based on loads and geometry. Performance calculations relied on standard fuel fraction methods and Breguet’s range equation. Since the turbine inlet conditions were fixed and limiting, engine performance was not part of the design space.
 
+An XDSM of this optimisation can be found [here](MDF_XDSM_Final.drawio.pdf)
+
 ## Design Variables
 
 The optimizer worked with a total of 20 design variables. These covered a mix of geometric, aerodynamic, and operational parameters, including:
@@ -45,6 +47,10 @@ Key results:
 - MTOW was reduced by 11.5%, from 263,636 kg to 233,260 kg  
 - Wing weight was reduced by 59.3%, driven mainly by a reduction in leading-edge sweep and overall wing area  
 - Fuel burn and CO₂ emissions were reduced by 14.5%  
-- The optimized aircraft cruises slightly faster and at a marginally lower altitude than the baseline  
+- The optimized aircraft cruises slightly faster and at a marginally lower altitude than the baseline
+- [Isometric comparison of original and optimised wing](wing_iso.pdf)
+
+
 
 Overall, the project showed that meaningful reductions in MTOW and emissions are possible through integrated aerodynamic and structural optimization, even when propulsion parameters are frozen. The framework itself is modular and can be extended to other aircraft configurations or additional disciplines if needed.
+
