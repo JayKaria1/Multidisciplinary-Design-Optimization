@@ -1,0 +1,1 @@
+Counter	MTOW	W_fuel	W_wing	W_a_minus_W_wing	CD0
